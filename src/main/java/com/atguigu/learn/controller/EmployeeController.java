@@ -21,6 +21,7 @@ public class EmployeeController {
     public String getAllEmployee(Model model){
         List<Employee> list = employeeService.getAllEmployee();
         model.addAttribute("list",list);
+        System.out.println("testGit!");
         return "employee_list";
     }
 
