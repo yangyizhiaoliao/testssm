@@ -22,6 +22,7 @@ public class EmployeeController {
         List<Employee> list = employeeService.getAllEmployee();
         model.addAttribute("list",list);
         System.out.println("testGit!");
+        System.out.println("this modify is by hot-fix");
         return "employee_list";
     }
 
