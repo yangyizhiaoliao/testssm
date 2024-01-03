@@ -24,6 +24,7 @@ public class EmployeeController {
         System.out.println("testGit!");
         System.out.println("this modify is by hot-fix");
         System.out.println("push commit");
+        System.out.println("pull commit");
         return "employee_list";
     }
 
