@@ -23,6 +23,7 @@ public class EmployeeController {
         model.addAttribute("list",list);
         System.out.println("testGit!");
         System.out.println("this modify is by hot-fix");
+        System.out.println("push commit");
         return "employee_list";
     }
 
